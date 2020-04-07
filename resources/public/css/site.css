@@ -1,0 +1,41 @@
+html {
+  min-height: 100vh;
+
+}
+
+
+
+.game-info {
+
+}
+
+.game-board-container {
+
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  max-width: 95vw;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.125em;
+  color: #333;
+  line-height: 1.5em;
+}
+
+
+
+.game-cell {
+  height: 30px;
+  width: 30px;
+  margin: 0;
+  padding: 0;
+  background-color: #D1D1D1;
+}
+
+.game-cell.clicked {
+  background-color: #EAEAEA;
+}
+
+img {
+  max-height: 90%;
+  margin: 0;
+  padding: 0;
+}
